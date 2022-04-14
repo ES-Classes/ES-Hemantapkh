@@ -1,3 +1,5 @@
+// --> https://github.com/ES-Classes/ES-Bishnu/blob/main/Assignments/Fundamentals/CodingChallenge1.md <--
+
 let prabinMass = 86;
 let ramMass = 70;
 
