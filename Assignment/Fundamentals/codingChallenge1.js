@@ -11,7 +11,14 @@ let ramBMI = ramMass / (ramMass * ramMass)
 
 let prabinHigherBMi = prabinsBMI > ramBMI;
 
-console.log(prabinsBMI);
-console.log(ramBMI);
+console.log(`The BMI of prabin is ${prabinsBMI}.`);
+console.log(`The BMI of ram is ${ramBMI}.`);
 
-console.log(prabinHigherBMi);
+switch (prabinHigherBMi) {
+    case true:
+        console.log(`Prabin has higher BMI than ram.`);
+        break;
+    case false:
+        console.log(`Ram has higher BMI than prabin.`);
+        break;
+}
